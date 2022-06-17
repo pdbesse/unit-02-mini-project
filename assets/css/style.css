@@ -1,0 +1,36 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --dark: midnightblue;
+    --light: aliceblue;
+    --bright: springgreen;
+  }
+
+
+body{
+    background-color: aliceblue;
+
+}
+
+h1{
+    color:midnightblue;
+}
+
+h2{
+    border: 5px solid var(--bright);
+    width: 300px;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    align-content:center;
+}
+
+.cards{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    text-align: center;
+}
