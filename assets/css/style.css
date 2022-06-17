@@ -18,6 +18,15 @@ h1{
 h2{
     border: 5px solid var(--bright);
     width: 300px;
+    position:relative;
+    margin-top: -20px;
+    background-color: var(--bright);
+    transition: color 2s;
+    
+}
+
+h2:hover {
+    background-color: #36aaea;
 }
 
 header{
@@ -29,8 +38,33 @@ main{
 }
 
 .cards{
-    display:flex;
+    display:inline-flex;
+    justify-content:center;
     flex-direction: row;
     flex-wrap:wrap;
     text-align: center;
+    /* background: linear-gradient(#36aaea, #d336ea); */
+    
+}
+
+section div { 
+    border-style: solid;
+    border-width: 2px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    /* width: 33%; */
+}
+
+/* pre {text-align:left;} */
+
+.code {
+    text-align:left;
+}
+
+pre {
+    display:flex;
+    flex-wrap:wrap;
+    text-align:left;
+    background: linear-gradient(#36aaea, #d336ea);
 }

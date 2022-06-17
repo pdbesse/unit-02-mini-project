@@ -18,34 +18,80 @@
     <main>
         <section class="cards">
             <div id="box1">
-                <h2>card title</h2>
-                    <p class="intro"></p>
-                    <p class="code">code snippet</p>
+                <h2>Purple Text</h2>
+                    <p class="intro">This is how you turn header text purple.</p>
+                        <a class="code">
+                            <pre >  
+    header {
+        color: #800080;
+    }
+                            </pre>
+                        </a>
             </div>
             <div id="'box2">
-                <h2>card title</h2>
-                    <p class="intro"></p>
-                    <p class="code">code snippet</p>
+                <h2>Dashed Border</h2>
+                    <p class="intro">This is how you add a 2px wide dashed border to a container.</p>
+                        <a class="code">
+                            <pre >  
+    div {
+        border-style: dashed;
+        border-width: 2px
+    }
+                            </pre>
+                        </a>
             </div>
             <div id="box3">
-                <h2>card title</h2>
-                    <p class="intro"></p>
-                    <p class="code">code snippet</p>
+                <h2>Box Shadow</h2>
+                    <p class="intro">This is how you add a shadow to a box. X-offset Y-Offset Color</p>
+                        <a class="code">
+                            <pre >  
+    div {
+        box-shadow: 10px 5px #78f542;
+    }
+                            </pre>
+                        </a>
+                    </p>
             </div>
             <div id="'box4">
-                <h2>card title</h2>
-                    <p class="intro"></p>
-                    <p class="code">code snippet</p>
+                <h2>Media Screen Query</h2>
+                    <p class="intro">This is how adapt your screen to different browser sizes</p>
+                        <a class="code">
+                            <pre >  
+    @media screen and (max-width: 768px) {
+        main,
+        nav {
+        flex-direction: column;
+        }
+    }
+                            </pre>
+                        </a>
+                    </p>
             </div>
             <div id="box5">
-                <h2>card title</h2>
-                    <p class="intro"></p>
-                    <p class="code">code snippet</p>
+                <h2>File Type Targeting</h2>
+                    <p class="intro">This is how you target every link in the HTML of a specific file type using CSS</p>
+                        <a class="code">
+                            <pre >  
+    a[href*='.css']::after {
+        content: '📝';
+        display: inline-block;
+        margin-left: 3px;
+    }
+                            </pre>
+                        </a>
+                     </p>
             </div>
             <div id="box6">
-                <h2>card title</h2>
-                    <p class="intro"></p>
-                    <p class="code">code snippet</p>
+                <h2>Remove Underline From Hyperlink Text</h2>
+                    <p class="intro">This is how you remove the underlining of hyperlink text</p>
+                        <a class="code">
+                            <pre >  
+    a{
+        text-decoartion: none;
+    }
+                            </pre>
+                        </a>
+                    </p>
             </div>
         </section>
     </main>
